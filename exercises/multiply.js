@@ -11,7 +11,7 @@
 // Your code :
 function multiply(a, b) {
 let result = 0;
-const inverse = a > 0 ? false : true;
+const inverse = a >= 0 ? false : true;
 	if (a < 0) {
 	a = -a
 	}
