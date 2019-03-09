@@ -8,6 +8,15 @@
  *
  */
 
+function repeat(str, num) {
+let maxRepeat = "";
+for (let i = 0; i < num; i++) {
+maxRepeat += str
+}
+return  maxRepeat
+}
+
+
 //* Begin of tests
 const assert = require('assert')
 
